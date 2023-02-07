@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    The random number is <a class="number"></a>
+<script>
+    let number = document.querySelector(".number");
+    let nb = 1052;
+    let m = Math.floor(Math.random()*(9505-95)+95)
+    number.textContent = nb*m;
+</script>
+</body>
+
+</html>
